@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background:skyblue;
+}
+
+.wrap{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    background: #1385be;
+    box-shadow: 5px 5px 10px #1071a2, 
+                -5px -5px 10px #1699db;
+    padding: 15px;
+    
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+input[type=button]{
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: #1385be;
+}
+#del{
+    width: 100%;
+    background: rgb(226, 18, 18);
+    border: none;
+    outline: none;
+}
+footer{
+    color: white;
+    text-align: center;
+}
